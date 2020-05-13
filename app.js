@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config();
 const express = require("express")
 const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
@@ -18,9 +18,8 @@ app.use(express.static("public"))
 
 
 
-var url = process.env.MONGOLAB_URI;
 
-mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(process.env.URL, {useNewUrlParser: true, useUnifiedTopology: true})
 app.get('/', (req, res) => {
     res.send("Hello World");
 })
