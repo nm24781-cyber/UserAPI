@@ -4,7 +4,7 @@
 ###### POST /api/users - Get new user via JSON FormData
 ###### GET /api/users - Get all users
 
-**NOTE**: For below GET request consider id as (object id) i.e _id of mongodb documents
+**NOTE: For below GET request consider id as (object id) i.e _id of mongodb documents
 
 ###### GET /api/users/:id - Get user with id for e.g 52364db34 
 
