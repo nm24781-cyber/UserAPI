@@ -17,9 +17,8 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static("public"))
 
 
+mongoose.connect(process.env.MongoDB, {useNewUrlParser: true, useUnifiedTopology: true})
 
-
-mongoose.connect(process.env.URL, {useNewUrlParser: true, useUnifiedTopology: true})
 app.get('/', (req, res) => {
     res.send("Hello World");
 })
