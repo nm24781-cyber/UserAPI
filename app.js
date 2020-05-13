@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static("public"))
 
 
-mongoose.connect(process.env.MongoDB, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(`mongodb+srv://${process.env.username}:${process.env.password}@cluster0-tkoks.mongodb.net/usersDB`, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('/', (req, res) => {
     res.send("Hello World");
