@@ -20,7 +20,7 @@ app.use(express.static("public"))
 mongoose.connect(`mongodb+srv://${process.env.username}:${process.env.password}@cluster0-tkoks.mongodb.net/usersDB`, {useNewUrlParser: true, useUnifiedTopology: true})
 
 app.get('/', (req, res) => {
-    res.send("<h1>Welcome TO Users API</h1>>");
+    res.send("<h1 style='align-content: center'>Welcome TO Users API</h1>");
 })
 
 //mongodb Connection Validation
