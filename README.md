@@ -6,10 +6,11 @@ POST /api/users - Get new user via JSON FormData
 GET /api/users - Get all users
 
 <p> <b>NOTE</b> : For below GET request consider id as (object id) i.e _id of mongodb documents</p>
-
+<br>
 GET /api/users/:id - Get user with id for e.g 52364db34 
-
+<br>
 PUT /api/users/1 - Update user details with id 1 via JSON FormData
+<br>
 DEL /api/users/1 - Delete user with id 1
 
 <h3>Preincluded Collection</h3> 
