@@ -6,7 +6,7 @@ const app = express()
 
 //Port
 
-const PORT = 3000
+//const PORT = 3000
 //View Engine
 app.set('view engine', 'ejs')
 
@@ -104,7 +104,11 @@ app.route('/api/users/1')
         })
     });
 
+let port=process.env.PORT
+if(port==null||port==""){
+    port=3000;
+}
 
-app.listen(PORT, () => {
-    console.log("Server is Listening on PORT" + PORT)
+app.listen(port, () => {
+    console.log("Server is started successfully")
 })
