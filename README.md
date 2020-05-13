@@ -1,5 +1,5 @@
-#UserAPI_BIT_BROTHERS
-##Working of API
+# UserAPI_BIT_BROTHERS
+## Working of API
 
 POST /api/users - Get new user via JSON FormData
 <br>
@@ -13,7 +13,7 @@ PUT /api/users/1 - Update user details with id 1 via JSON FormData
 <br>
 DEL /api/users/1 - Delete user with id 1
 
-##Preincluded Collectio
+## Preincluded Collectio
 <div>
 [
    {
