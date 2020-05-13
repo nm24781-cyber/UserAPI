@@ -6,7 +6,7 @@
 
 **NOTE : For below GET request consider id as (object id) i.e _id of mongodb documents**
 
-###### GET /api/users/:id - Get user with id for e.g 52364db34 
+###### GET /api/users/:id - Get user with id for e.g 5ebc241640188680125631fc 
 
 ###### PUT /api/users/1 - Update user details with id 1 via JSON FormData
 
