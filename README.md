@@ -12,7 +12,7 @@
 
 ###### DEL /api/users/1 - Delete user with id 1
 
-## Preincluded Collection Data
+## Pre-included Collection Data
 
 [
    {
