@@ -1,5 +1,5 @@
 # <h1>UserAPI_BIT_BROTHERS</h1>
-Working of API
+<h2>Working of API </h2>
 
 POST /api/users - Get new user via JSON FormData
 GET /api/users - Get all users
